@@ -50,6 +50,20 @@ html,body{
   background-color: rgba(242, 232, 232, 0.075);
   padding: 10px 20px;
   border-radius: 15px;
+  cursor: pointer;
+}
+.btnHover2{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.btnHover2:hover{
+ color: rgb(175, 174, 174);
+ 
+}
+.btnHover2:active{
+  outline: none;
+  border: none;
 }
 /* 1.2 Typography */
 h1,
@@ -93,7 +107,10 @@ h2,
   font-size: 2.1rem;
   line-height: 1.2;
   color: #343434;
-  margin:2rem 0;
+  /* margin:2rem 0; */
+}
+.hoverop:hover{
+opacity: .8;
 }
 h2 .mark,
 .h2 .mark{
@@ -753,7 +770,10 @@ ion-icon{
   display: block;
   font-size:3.6vh;
   margin-top: 8vh;
-  font-weight: 600;
+ 
+}
+.navbar-nav-mobile:active{
+  font-weight: bold;
 }
 .navbar-nav-mobile  li{
   margin-bottom: 5vmin;
@@ -814,6 +834,20 @@ ion-icon{
 .navbar-white:not(.fixed) .toggler-icon{
   border-color: #fff;
 }
+
+.respfontsize{
+  font-size: xx-large;
+  line-height: 40px;
+  font-weight: bold;
+}
+@media (max-width:480px) {
+
+  .respfontsize{
+  font-size: large;
+  line-height: 40px;
+  font-weight: bold;
+}
+}
 /*-------------------------------------------------------------------------------
   3. Main
 -------------------------------------------------------------------------------*/
@@ -824,7 +858,7 @@ ion-icon{
   background-size: cover;
   display: flex;
   align-items: center;
-  padding:9rem 0 0rem 0;
+  padding:6rem 0 0rem 0;
   background-position: left top;
   background-size: cover;
 }
@@ -856,7 +890,7 @@ ion-icon{
 }
 .section{
   position: relative;
-  padding:5rem 2rem;
+  padding:4.7rem 1.3rem;
 }
 .section-sm{
   padding: 6rem 0;
@@ -1324,7 +1358,7 @@ footer .social-icons ion-icon{
 .modal-header,
 .modal-body,
 .modal-footer{
-  padding: 1.7rem;
+  /* padding: 1.7rem; */
   border:0;
 }
 .modal-header{
