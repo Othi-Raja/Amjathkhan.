@@ -56,14 +56,22 @@ html,body{
   border: none;
   outline: none;
   background-color: transparent;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 4px 10px;
 }
 .btnHover2:hover{
  color: rgb(175, 174, 174);
+ border: none;
+ outline: none;
+ padding: 4px 10px;
  
 }
 .btnHover2:active{
+  background-color: transparent;
   outline: none;
   border: none;
+  color: rgb(0, 0, 0);
 }
 /* 1.2 Typography */
 h1,
@@ -235,14 +243,14 @@ a:focus{
   padding: 4px 10px;
   outline: none;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 1px 2px;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0 1px 2px; */
  }
  .btnHover:hover{
-  background-color:rgb(237, 237, 237);
+  background-color:rgba(103, 103, 103, 0);
   color: rgb(0, 0, 0);
-  box-shadow: rgba(0, 0, 0, 0.25) 0 2px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0 2px 15px; */
  }
- .btnHover1{
+ /* .btnHover1{
   color: rgb(0, 0, 0);
   border-radius: 20px;
   padding: 4px 10px;
@@ -253,7 +261,7 @@ a:focus{
   background-color: black;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.25) 0 3px 15px;
- }
+ } */
 /* home page btn  */
 
 .textShadow{
@@ -265,7 +273,7 @@ a:focus{
      display: none;
   } 
   .mt480{
-    margin-top: 20px;
+    margin-top: 51px;
   }
   
 }
