@@ -264,6 +264,9 @@ a:focus{
   .hide{
      display: none;
   } 
+  .mt480{
+    margin-top: 20px;
+  }
   
 }
 .your-element-class {
