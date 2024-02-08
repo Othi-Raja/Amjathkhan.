@@ -58,22 +58,22 @@ html,body{
   background-color: transparent;
   border: .7px solid rgb(161, 161, 161);
   border-radius: 20px;
-  padding: 4px 10px;
+  padding: 5px 10px;
 }
 .btnHover2:hover{
   background-color: rgba(128, 128, 128, 0.188);
  color: rgb(0, 0, 0);
- border: none;
+  
  outline: none;
- padding: 4px 10px;
+ padding: 5px 10px;
  
 }
 .btnHover2:active{
   background-color: rgba(128, 128, 128, 0.449);
  color: rgb(0, 0, 0);
- border: none;
+ 
  outline: none;
- padding: 4px 10px;
+ padding: 5px 10px;
 }
 /* 1.2 Typography */
 h1,
@@ -242,12 +242,13 @@ a:focus{
   background-color: black;
   color: white;
   border-radius: 20px;
-  padding: 4px 10px;
+  padding: 5px 10px;
   outline: none;
   border: none;
   /* box-shadow: rgba(0, 0, 0, 0.25) 0 1px 2px; */
  }
  .btnHover:hover{
+  padding: 5px 10px;
   background-color:rgba(52, 52, 52, 0.884);
   color: rgb(255, 255, 255);
   /* box-shadow: rgba(0, 0, 0, 0.25) 0 2px 15px; */
