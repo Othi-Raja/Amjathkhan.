@@ -876,6 +876,7 @@ ion-icon{
   background-position: left top;
   background-size: cover;
 }
+  
 .opener{
   position: relative;
   z-index: 1;
@@ -913,8 +914,20 @@ ion-icon{
   margin-top: 40px;
 }
 @media (max-width:480px) {
-  margin-top: 20px;
+  .Picky{
+    margin-top: 20px;
+  }
   
+  .masthead{
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding:6rem 0 0rem 0;
+    background-position: left top;
+    background-size: cover;
+  }
 }
 .pp-section{
   background: #fff;
