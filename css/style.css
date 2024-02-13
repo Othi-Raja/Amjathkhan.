@@ -872,7 +872,7 @@ ion-icon{
   background-size: cover;
   display: flex;
   align-items: center;
-  padding:6rem 0 0rem 0;
+  padding:3rem 0 0rem 0;
   background-position: left top;
   background-size: cover;
 }
@@ -904,10 +904,17 @@ ion-icon{
 }
 .section{
   position: relative;
-  padding:4.7rem 1.3rem;
+  padding:1rem 1rem;
 }
 .section-sm{
   padding: 6rem 0;
+}
+.Picky{
+  margin-top: 40px;
+}
+@media (max-width:480px) {
+  margin-top: 20px;
+  
 }
 .pp-section{
   background: #fff;
