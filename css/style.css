@@ -913,9 +913,19 @@ ion-icon{
 .Picky{
   margin-top: 40px;
 }
+#about{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skills{
+  padding-top: 50px;
+}
 @media (max-width:480px) {
   .Picky{
     margin-top: 20px;
+  }
+  #about{
+    padding-bottom: 72px;
   }
   
   .masthead{
