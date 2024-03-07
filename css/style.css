@@ -918,9 +918,17 @@ ion-icon{
   margin-bottom: 20px;
 }
 .skills{
-  padding-top: 30px;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
+ #experience{
+  padding-top: 50px;
+ }
 @media (max-width:480px) {
+  .skills{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .Picky{
     margin-top: 20px;
   }
