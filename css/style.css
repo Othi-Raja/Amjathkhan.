@@ -1324,7 +1324,9 @@ opacity: 0.8;
   margin-top: -30px;
 }
 .col-news{
+  height: auto;
   margin-top: 30px;
+  /* margin-bottom: 10px; */
 }
 .col-news figure{
   background-color: #fff;
