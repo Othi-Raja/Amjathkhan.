@@ -779,7 +779,7 @@ ion-icon{
 }
 .navbar-mobile-footer{
   margin-top: auto;
-}
+}zz
 .navbar-nav-mobile{
   display: block;
   font-size:3.6vh;
@@ -1327,6 +1327,7 @@ opacity: 0.8;
   height: auto;
   margin-top: 30px;
   /* margin-bottom: 10px; */
+  cursor: pointer;
 }
 .col-news figure{
   background-color: #fff;
